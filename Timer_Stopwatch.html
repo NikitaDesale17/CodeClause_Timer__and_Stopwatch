@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timer and Stopwatch</title>
+    <link rel="stylesheet" href="style_timer.css" />
+    <link rel="stylesheet" href="style_stopwatch.css" />
+  </head>
+
+  <body>
+     <!--Timer Starts-->
+<div class="conatiner">
+    <h2 id="h">Timer</h2>
+    <div id="countdown">
+      <div id="days"></div>
+      <div id="hours"></div>
+      <div id="minutes"></div>
+      <div id="seconds"></div>
+    </div>
+
+    <script src="script_timer.js"></script>
+     <!--Timer Ends-->
+<br><br><br>
+
+    <!--Stopwatch starts-->
+    <div class="wrapper">
+        <h2 id="h">Stopwatch</h2>
+        <div class="time">
+          <span class="hour">00</span>
+          <span class="colon">:</span>
+          <span class="minute">00</span>
+          <span class="colon">:</span>
+          <span class="second">00</span>
+          <span class="colon ms-colon">:</span>
+          <span class="millisecond">00</span>
+        </div>
+        <div class="buttons">
+          <button class="start">Start</button>
+          <button class="stop">Stop</button>
+          <button class="reset">Reset</button>
+        </div>
+      </div>
+      
+      <script src="script_stopwatch.js"></script>
+    <!--Stopwatch Ends-->
+</div>
+  </body>
+</html>
